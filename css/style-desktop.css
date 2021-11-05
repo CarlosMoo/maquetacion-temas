@@ -141,7 +141,7 @@ header{
     margin-top: 8px;
     width: 35px;
     height: 35px;
-    background-color: #EF4159;
+    background-color: #FD3862;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -169,7 +169,7 @@ header{
     margin-top: 8px;
     width: 35px;
     height: 35px;
-    background-color: #EF4159;
+    background-color: #FD3862;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -193,4 +193,279 @@ header{
 .raleway{
     font-family: 'Raleway', sans-serif;
     font-size: 16px;
+}
+
+/* Team */
+
+.team{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* align-items: stretch; */
+    font-family: 'Red Hat Text', sans-serif;
+}
+
+.personal{
+    width: 280px;
+}
+
+.personal figure{
+    max-width: 280px;
+    overflow: hidden;
+}
+
+.personal figure img{
+    width: 100%;
+    filter: grayscale(100%);
+    transition: all 1s;
+}
+
+.personal:hover figure img{
+    filter: grayscale(0%);
+    transform: scale(1.05) ;
+}
+
+.personal-names{
+    margin: 15px 0 10px 0;
+    text-align: center;
+}
+
+.personal-names h3{
+    font-weight: bolder;
+}
+
+.personal-names h4{
+    color: gray;
+    font-size: 12px;
+}
+
+.social{
+    margin-top: 10px;
+    padding: 20px 0;
+    gap: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.social i{
+    color: gray;
+}
+
+#line-social{
+    border-bottom: 1.00px #cccccc solid;
+    width: 280px;
+    display: flex;
+    margin: auto;
+}
+
+.social a:hover i{
+    color: #FD3862;
+}
+
+/* PRICE */
+
+.bg-g{
+    background-color: #ECECEC;
+}
+
+#line-price{
+    border-bottom: 1.00px #cccccc solid;
+    width: 260px;
+    display: flex;
+    margin: auto;
+
+    margin: 40px 0;
+}
+
+.price{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+.paquetes{
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    transition: all 0.5s;
+}
+
+.paquetes:hover{
+    box-shadow: 0 0 10px rgb(88, 88, 88);
+    transform: scale(1.05);
+}
+
+.paquetes i{
+    font-size: 40px;
+    color: #ccc;
+    margin: 30px 0 10px 0;
+}
+
+.paquetes > p {
+    font-size: 24px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+.margen{
+    padding: 10px 0 30px 0;
+}
+
+.number-price{
+    display: flex;
+    flex-direction: row;
+    width: 150px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.number-price h1 {
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.number-price h5 {
+    font-weight: bold;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.number-price div h1{
+    font-size: 12px;
+    color: #FD3862;
+    font-family: 'Poppins', sans-serif;
+}
+
+.paquetes ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #cccccc;
+    font-family: 'News Cycle', sans-serif;
+    font-weight: 400;
+    gap: 20px;
+}
+
+.number-price div {
+    display: flex;
+    align-items: flex-end;
+    height: 50px;
+}
+
+.btn-purchase{
+    margin: 20px 0 20px 0;
+    padding: 10px 25px;
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    border: black 2px solid;
+    font-family: 'Inter', sans-serif;
+}
+
+.btn-purchase:hover{
+    margin: 20px 0 20px 0;
+    padding: 10px 25px;
+    background-color: #FD3862;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    border: #FD3862 2px solid;
+    font-family: 'Inter', sans-serif;
+}
+
+/* BLOG */
+
+.blog{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+#line-blog{
+    border-bottom: 1px #cccccc solid;
+    width: 320px;
+    display: flex;
+    margin: auto;
+}
+
+.notice{
+    width: 380px;
+    box-shadow: 0 0 10px #cccccc
+}
+
+.notice figure{
+    max-width: 380px;
+    overflow: hidden;
+}
+
+.notice figure img {
+    width: 100%;
+    transition: all 0.5s;
+}
+
+.notice:hover figure img{
+    transform: scale(1.2);
+}
+
+.notice:hover .Nunito h2{
+    color: #FD3862 ;
+}
+
+.text{
+    font-family: 'Roboto', sans-serif;
+    color: gray;
+    margin: 20px 0 22px 0;
+}
+
+.Nunito{
+    font-family: 'Nunito Sans', sans-serif;
+    width: 320px;
+    margin: 0 30px 20px 30px;
+}
+
+.Nunito h2{
+    font-size: 14px;
+    color: #9b9b9b;
+    font-weight: bold;
+    margin: 30px 0 10px 0;
+}
+
+.Nunito h3{
+    font-size: 16px;
+    color: gray;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+}
+
+.Nunito h4{
+    font-size: 12px;
+    color: #cccccc;
+    font-weight: bold;
+    margin: 0 0 20px 0;
+}
+
+.Nunito h4 span{
+    font-size: 14px;
+    color: #FD3862;
+    font-weight: bold;
+}
+
+.more{
+    color: gray;
+    font-size: 14px;
+    font-weight: bold;
 }
