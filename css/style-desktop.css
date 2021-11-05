@@ -195,14 +195,13 @@ header{
     font-size: 16px;
 }
 
-/* Team */
+/* TEAM */
 
 .team{
     margin-top: 50px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    /* align-items: stretch; */
     font-family: 'Red Hat Text', sans-serif;
 }
 
